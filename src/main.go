@@ -35,7 +35,7 @@ func handleApp(w http.ResponseWriter, r *http.Request) {
     // print main hello message
     who,ok := r.URL.Query()["who"]
     if ok {
-      fmt.Fprintf(w, "Hello, %s\n", who[0])
+      fmt.Fprintf(w, "HelloKitty, %s\n", who[0])
     }else {
       fmt.Fprintf(w, "Hello, World\n")
     }
