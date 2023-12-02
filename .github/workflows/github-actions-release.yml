@@ -4,8 +4,8 @@ run-name: Create Github Release for GoLang binary
 
 on: 
   push:
-    #branches:
-    #- main
+    branches:
+    - main
     tags:
     - 'r*'
 
